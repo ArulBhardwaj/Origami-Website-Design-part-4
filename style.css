@@ -1,0 +1,40 @@
+h1{
+    color:rgb(0, 0, 0);
+}
+
+.header{
+    background-color:rgb(0, 255, 242);
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:warp;
+    justify-content:space-evenly;
+}
+
+.footer {
+    display:flex;
+    justify-content:flex-end;
+}
+
+p,h2 {
+    text-align:center;
+}
+
+body {
+    background-color:#005255
+}
+
+a:link {
+    color:white 
+}
+
+a:visited {
+    color:white 
+}
+
+.origami:hover{
+    transform:scale(1.2);
+}
